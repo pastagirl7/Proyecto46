@@ -1,0 +1,45 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/player.js"></script>
+
+   
+
+ <!-- El núcleo JS SDK de Firebase siempre es requerido y debe ser enlistado primero -->
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+<!-- TODO: Agregar SDKs para los productos Firebase que quieras usar
+   https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Configuración de Firebase de tu aplicación web
+const firebaseConfig = {
+  apiKey: "AIzaSyAGJPEv2cAL1V2ld4WtHj9sSezjJH5NCcg",
+  authDomain: "frutas-e61ee.firebaseapp.com",
+  databaseURL: "https://frutas-e61ee-default-rtdb.firebaseio.com",
+  projectId: "frutas-e61ee",
+  storageBucket: "frutas-e61ee.appspot.com",
+  messagingSenderId: "71123701995",
+  appId: "1:71123701995:web:108b4d3142b6e3ceceeeae",
+  measurementId: "G-SVVRLLGJ9Q"
+};
+  // Inicializar Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+  
+  
+ 
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+</body></html>
